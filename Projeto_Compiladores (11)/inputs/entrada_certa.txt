@@ -1,0 +1,31 @@
+inteiro soma(inteiro a, inteiro b) {
+    inteiro r;
+    r = a + b;
+    retorna r;
+}
+
+inteiro principal() {
+    inteiro x;
+    inteiro y;
+    inteiro z;
+    inteiro i;
+    inteiro e = 5;
+    inteiro v = 10;
+    inteiro a;
+    x = 1;
+    y = 2;
+    se (z > 2) {
+        z = z + 1;
+    } senao {
+        z = z - 1;
+    }
+    enquanto (x < 5) {
+        x = x + 1;
+    }
+    para (i = 0; i < 3; i + 1) {
+        inteiro temp = i;
+    }
+    a = soma(e, v);
+    exibir(a);
+    retorna z;
+}
